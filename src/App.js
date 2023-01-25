@@ -9,23 +9,23 @@ function App() {
   return (
     <div className="App">
       
-      {/* <Greet fname="Debjit"  lname="Nandan">
+      <Greet fname="Debjit"  lname="Nandan">
         <p>
           This is a children props
         </p>
       </Greet>
       <Greet fname="Tanmoy"  lname="Dey" />
-      <Greet fname="Sudipta" lname="Das"  /> */}
+      <Greet fname="Sudipta" lname="Das"  />
       
     {/* <Hello/>   */}
 
-    {/* <Welcome name="DJ"/>  */}
-    {/* <Welcome name="Bewda"/> */}
-    {/* <Welcome name="Sashinara"/>
+    <Welcome fname="Debjit" name="DJ"/> 
+    <Welcome fname="Tanmoy" name="Bewda"/>
+    <Welcome fname="Sudipta" name="Sashinara"/>
 
-      {/* <Counter/> */}
+       {/* <Counter/>  */}
 
-      <Message/>
+      {/* <Message/> */}
 
     </div>
   );
